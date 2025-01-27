@@ -19,9 +19,9 @@
 ### 一键脚本(先执行脚本,在自行修改 frps.toml 文件.)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 # 以下为国内镜像
-wget https:://ghproxy.1888866.xyz/https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https:://ghproxy.1888866.xyz/https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
@@ -34,9 +34,9 @@ sudo systemctl restart frps
 
 卸载
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+wget https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 # 以下为国内镜像
-wget https:://ghproxy.1888866.xyz/https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+wget https:://ghproxy.1888866.xyz/https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 ```
 
 ### 自定义一键脚本(先 fork 本仓库,在自行修改 frps.toml 文件后执行脚本.)
@@ -80,9 +80,9 @@ sudo systemctl stop frps
 
 先 **git clone** 本仓库,并正确配置 **frps.toml** 文件.
 ```shell
-git clone https://github.com/stilleshan/frps
+git clone https://github.com/Vicent-Lee-CHN/frps
 # git clone 本仓库
-git clone https://github.ioiox.com/stilleshan/frps
+git clone https://github.ioiox.com/Vicent-Lee-CHN/frps
 # 国内镜像
 vi /root/frps/frps.toml
 # 配置 frps.toml 文件
@@ -103,11 +103,3 @@ vi /root/frps/frps.toml
 docker restart frps
 # 重启 frps 容器即可生效
 ```
-
-## 链接
-- Blog [www.ioiox.com](https://www.ioiox.com)
-- GitHub [stilleshan/frps](https://github.com/stilleshan/frps)
-- Docker Hub [stilleshan/frps](https://hub.docker.com/r/stilleshan/frps)
-- Docker [docker.ioiox.com](https://docker.ioiox.com)
-- 原版frp项目 [fatedier/frp](https://github.com/fatedier/frp)
-- [CentOS 7 安装配置frp内网穿透服务器端教程](https://www.ioiox.com/archives/5.html)
