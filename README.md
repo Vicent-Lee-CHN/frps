@@ -21,7 +21,7 @@
 ```shell
 wget https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 # 以下为国内镜像
-wget https:://ghproxy.1888866.xyz/https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://ghproxy.1888866.xyz/https://raw.githubusercontent.com/Vicent-Lee-CHN/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
